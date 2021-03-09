@@ -15,29 +15,30 @@ function NavTab(props) {
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#index"
-          onClick={() => props.handlePageChange("About")}
-          className={props.currentPage === "About" ? "nav-link active" : "nav-link"}>José Eduardo Coello Kunz</a>
+          onClick={() => props.handlePageChange("Index")}
+          className={props.currentPage === "Index" ? "nav-link active" : "nav-link"}>José Eduardo Coello Kunz</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+      <li class="nav-item">
+          <a class="nav-link" href="#index"
+          onClick={() => props.handlePageChange("Index")}
+          className={props.currentPage === "Index" ? "nav-link active" : "nav-link"}> About </a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#contact"
           onClick={() => props.handlePageChange("Contact")}
-          className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}>Contact <span class="sr-only">(current)</span></a>
+          className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}> Contact </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#portfolio"
-          onClick={() => props.handlePageChange("Blog")}
-          className={props.currentPage === "Blog" ? "nav-link active" : "nav-link"}>Portfolio</a>
+          onClick={() => props.handlePageChange("Portfolio")}
+          className={props.currentPage === "Portfolio" ? "nav-link active" : "nav-link"}> Portfolio </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#index"
-          onClick={() => props.handlePageChange("About")}
-          className={props.currentPage === "About" ? "nav-link active" : "nav-link"}>About</a>
-        </li>
+        
       </ul>
     </div>
   </nav>

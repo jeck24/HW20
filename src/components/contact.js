@@ -31,11 +31,11 @@ function Contact() {
           </div>
           <div class="form-group">
             <label for="message">Name</label>
-            <input class="form-control" type="text" placeholder="Please let me know who is calling"/>
+            <input class="form-control" type="text" placeholder="Please let me know who are you"/>
           </div>
           <div class="form-group">
             <label for="message">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Currently not working but please connect through LinkedIn"></textarea>
           </div>
           <div class="form-group">
             <button type="button" class="btn btn-secondary">Submit</button>
