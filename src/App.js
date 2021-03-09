@@ -1,21 +1,7 @@
 import './App.css';
-import Index from "./components/index";
-import Contact from "./components/contact";
-import Footer from "./components/footer";
-import Portfolio from "./components/portfolio";
+import Container from "./components/portfolioContainer";
 
-function App() {
-  return (
-    <div>
-      <Index />
-      <Portfolio />
 
-      <Contact />
-
-      <Footer />
-
-    </div>
-  );
-}
+const App = () => <Container />;
 
 export default App;

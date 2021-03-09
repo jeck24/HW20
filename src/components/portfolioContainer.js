@@ -3,6 +3,7 @@ import NavTab from "./navtab";
 import Index from "./index";
 import Portfolio from "./portfolio";
 import Contact from "./contact";
+import Footer from "./footer";
 
 class Container extends Component {
   state = {
@@ -31,6 +32,7 @@ class Container extends Component {
           handlePageChange={this.handlePageChange}
         />
         {this.renderPage()}
+        <Footer />
       </div>
     );
   }
