@@ -6,6 +6,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Index() {
   return (
   <>
+  <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="icon" type="img/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTizfGf5mOS2Mfs5gHIJbRRUc5u4FCk3RP7zg&usqp=CAU"/>
+        <link rel="stylesheet" type="text/css" href="./CSSReset.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=PT+Sans+Narrow&family=Prosto+One&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+  </head>
+
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="./index.html">José Eduardo Coello Kunz</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,9 +44,9 @@ function Index() {
           <article class="media-body">
             <h1>About me <span class="badge badge-secondary">New</span></h1>
             <p>Curious Product Operations Lead with 7+ years experience. MBA graduate & engineering background. Launched multiple cities while working for operations @ DiDi and worked as Equity Research analyst during my early career. Looking for the correct questions to understand what the users need.</p>
-            <a href="https://github.com/jeck24" class="fa fa-github" target="_blank" rel="noreferrer"> GitHub </a>
-            <a href="http://www.linkedin.com/in/josé-eduardo-coello-kunz-926b584b" class="fa fa-linkedin" target="_blank" rel="noreferrer"> LinkedIn </a>
-            <a href="https://www.instagram.com/jecoello/" class="fa fa-instagram" target="_blank" rel="noreferrer"> Instagram </a>
+            <a href="https://github.com/jeck24" class="fa fa-github" target="_blank" rel="noreferrer"> </a>
+            <a href="http://www.linkedin.com/in/josé-eduardo-coello-kunz-926b584b" class="fa fa-linkedin" target="_blank" rel="noreferrer">  </a>
+            <a href="https://www.instagram.com/jecoello/" class="fa fa-instagram" target="_blank" rel="noreferrer">  </a>
           </article>
         </article>
       </section>
@@ -336,15 +346,6 @@ function Index() {
       </section>
 
     </container>
-
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-      <footer class="container text-center">
-        <small>José Eduardo Coello Kunz &copy; JECK</small>
-        <a href="https://github.com/jeck24" class="fa fa-github" target="_blank" rel="noreferrer"> GitHub </a>
-        <a href="http://www.linkedin.com/in/josé-eduardo-coello-kunz-926b584b" class="fa fa-linkedin" target="_blank" rel="noreferrer"> LinkedIn </a>
-        <a href="https://www.instagram.com/jecoello/" class="fa fa-instagram" target="_blank" rel="noreferrer"> Instagram </a>
-      </footer>
-    </footer>
   </>
   );
 }
